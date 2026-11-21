@@ -5,7 +5,7 @@ Reconstruction of the code behind
 > **Multi-Robot Expansive Planning and Trajectory Evaluation for Tracking and Localization of Marine Life**
 > Kehlani A. Fay, Michael Giordano, Alberto Soto, Christopher M. Clark, Emily Spurgeon, James Anderson, Christopher G. Lowe.
 > *38th ACM/SIGAPP Symposium on Applied Computing (SAC '23)*, Tallinn, Estonia, pp. 808-815, 2023.
-> [doi:10.1145/3555776.3577749](https://doi.org/10.1145/3555776.3577749) · [slides](https://docs.google.com/presentation/d/1T-2BDdvBwcgFfQvNIiSkEVgcK2PtoIZC/edit?usp=sharing)
+> [doi:10.1145/3555776.3577749](https://doi.org/10.1145/3555776.3577749) · [slides (PDF)](docs/SAC2023_slides.pdf) · [slides (Google)](https://docs.google.com/presentation/d/1T-2BDdvBwcgFfQvNIiSkEVgcK2PtoIZC/edit?usp=sharing)
 
 <p align="center">
   <img src="docs/images/white_shark.jpg" height="210">
@@ -88,6 +88,7 @@ redistributed here. It lives in the private repository `ciherrera20/WhiteShark-D
 | `sharkplan/sim.py` | closed-loop simulator (replan every 10 s, 30 s horizon, shark sampled from its model) |
 | `scripts/` | figure, animation and experiment scripts |
 | `figures/`, `animations/`, `results/` | generated outputs (committed) |
+| `docs/SAC2023_slides.pdf` | the full SAC '23 presentation |
 | `docs/slides/` | plots from the original SAC '23 presentation, for comparison |
 
 ## Method
