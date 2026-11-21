@@ -1,0 +1,12 @@
+experiment,variant,high_fitness,mean_score,runs
+heatmap,ISE,True,0.36009248900602603,900
+heatmap,JSE,True,0.4923295427456867,900
+auv_sweep,ISE,False,0.09288710988284585,180
+auv_sweep,ISE,True,0.2597885851256754,180
+auv_sweep,JSE,False,0.536950651126265,180
+auv_sweep,JSE,True,0.5875059884310034,180
+auv_sweep,RRT,False,0.06083884466872043,180
+speed_sweep,ISE,False,0.08834379275336346,120
+speed_sweep,ISE,True,0.3692733110966487,120
+speed_sweep,JSE,False,0.45771230989684136,120
+speed_sweep,JSE,True,0.5243832289199939,120
