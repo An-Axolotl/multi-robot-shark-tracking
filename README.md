@@ -7,6 +7,19 @@ Reconstruction of the code behind
 > *38th ACM/SIGAPP Symposium on Applied Computing (SAC '23)*, Tallinn, Estonia, pp. 808-815, 2023.
 > [doi:10.1145/3555776.3577749](https://doi.org/10.1145/3555776.3577749) · [slides](https://docs.google.com/presentation/d/1T-2BDdvBwcgFfQvNIiSkEVgcK2PtoIZC/edit?usp=sharing)
 
+<p align="center">
+  <img src="docs/images/white_shark.jpg" height="210">
+  <img src="docs/images/iver3_underwater.jpg" height="210">
+</p>
+<p align="center">
+  <img src="docs/images/iver3_hydrophones.jpg" width="32%">
+  <img src="docs/images/iver3_rxlive_receiver.jpg" width="32%">
+  <img src="docs/images/auv_shark_tracking_lin2016.jpg" width="32%">
+</p>
+<p align="center"><em>Juvenile white sharks are tracked with acoustic tags. The target vehicle is the L3Harris Iver3 AUV,
+shown with a hydrophone array (left) and an Rx-Live acoustic receiver (middle). Right: prior single-AUV tracking of a
+tagged shark (AUV path vs. tag positions; Lin et al. 2016, LAIR).</em></p>
+
 The original C# implementation was lost. This repository is a Python rebuild from the paper and the SAC '23
 slides. It covers the shark motion models from the CSULB white-shark data, the fitness function, the ISE / JSE
 expansive RRT planners, the adapted-RRT baseline, the closed-loop simulator, and every plot and animation. See
